@@ -1,0 +1,30 @@
+{
+  "name": "api-automacao",
+  "version": "1.0.0",
+  "description": "API para comunicacao de equipamentos de automacao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ermirio/API_Automacao.git#desenvolvimento"
+  },
+  "author": "Ermirio A. Bonfim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ermirio/API_Automacao/issues"
+  },
+  "homepage": "https://github.com/Ermirio/API_Automacao/tree/desenvolvimento#readme",
+  "dependencies": {
+    "@st-one-io/nodes7": "^1.1.0",
+    "body-parser": "^1.19.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "modbus-serial": "^8.0.5",
+    "modbus-tcp": "^0.4.13",
+    "modbus-tcp-ip": "^1.0.3",
+    "nodes7": "^0.3.16",
+    "serve-static": "^1.14.2"
+  }
+}

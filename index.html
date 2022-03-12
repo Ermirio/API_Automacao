@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Meu Site</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<h1 class =title>Testando Conhecimentos</h1>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+  </head>
+  <h1 class="title"></h1>
+  <body>
+    <div class="banner">Central IOT 4.0</div>
     <div class="container">
-        <div class="content">
-            <button class = "btn01"> Alinhado </button>
-            <h2>Testando Conhecimentos</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quidem.
-            </p>
-            <button id="btnStart" type="button" class="btn"> Botão 1 </button>
-            <input type="text" id="txtTime">
-        </div>
+      
 
-        <div>
-            
-        </div>
+      <h2>Estação IOT</h2>
+      <div id="chart-temperature" class="container"></div>
+      <div id="chart-Altitude" class="container"></div>
+      <div id="chart-pressure" class="container"></div>
 
+      <div class="myChart">
+        <canvas id="myChart" width="400" height="400"></canvas>
+        <canvas id="doughnut" width="400" height="400"></canvas>
+      </div>
+
+
+      <div class="content">
+        <button class="btnStop" ; id="btnStop">cmd</button>
+        <h2>Testando Conhecimentos</h2>
+        <p></p>
+        <button id="btnStart" type="button" class="btn">Botão 1</button>
+        <input type="text" id="txtTime" />
+      </div>
     </div>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>

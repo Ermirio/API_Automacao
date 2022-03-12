@@ -1,0 +1,46 @@
+
+.content {
+    background-color: #078ad6;
+    margin-top: 2px;
+    align-items: center;
+    text-align: center;
+    margin-top: 2px;
+    border: 3px solid #4CAF50;
+    border-radius: 2px;
+    padding:1px;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    text-combine-upright: all;
+    
+}
+
+.btn01 {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 0px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px ;
+}
+
+
+.banner {
+  position: relative;
+  margin-left:  center;
+  padding: 0 15px;
+  background-color: rgb(60, 60, 168);
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  line-height: 100px;
+  font-size: 32px;
+  color: #fff;
+  border-radius: 10px;
+  text-emphasis-color: red ;
+  text-align: center
+}
+
